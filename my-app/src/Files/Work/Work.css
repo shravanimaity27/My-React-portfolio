@@ -1,0 +1,46 @@
+.Work{
+        width: 50%; 
+        height: 50vh;     
+        border-radius: 10px; 
+        font-size:larger; 
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;
+        position: fixed; 
+        color:white;
+        background: rgba(255, 247, 247, 0.2);   
+        z-index: 1; 
+        padding: 20px; 
+        text-align: center; 
+} 
+
+.Work-demo{
+    width: 100%;  
+    height: 30vh;     
+    padding: 20px;
+    display: flex;  
+    /* flex-direction: column; */
+    justify-content: space-between;  
+    background: black; 
+} 
+
+.Work-demo .project1, 
+.Work-demo .project2{
+    width: 95%;  
+    height: fit-content; 
+    margin: 0 auto;
+}  
+
+@media only screen and (max-width: 1200px) {
+    .Work{
+        width: auto; 
+        height: auto; 
+        font-size:medium; 
+    } 
+    .Work-demo{
+        width: auto;  
+        height: auto;     
+    } 
+}
